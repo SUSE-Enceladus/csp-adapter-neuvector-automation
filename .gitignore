@@ -1,0 +1,6 @@
+*.tfstate
+*.tfstate*
+*.tfvars
+*.lock.hcl
+aks-terraform/.terraform/*
+azure.json
