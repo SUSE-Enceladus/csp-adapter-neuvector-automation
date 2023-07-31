@@ -1,0 +1,33 @@
+# AWS Variables
+# AWS access key used to create infrastructure
+aws_access_key = ""
+
+# AWS secret key used to create infrastructure
+aws_secret_key = ""
+
+# AWS region used for all resources
+aws_region = "us-west-2"
+
+# AWS availability zone 1 for subnet-primary to be used for the EKS cluster subnet_ids
+aws_az1 = "us-west-2a"
+
+# AWS availability zone 2 for subnet-secondary to be used for the EKS cluster subnet_ids
+aws_az2 = "us-west-2b"
+
+# Prefix of the resources that will be created under this module
+resource_prefix = ""
+
+# AKS variables
+resource_group_name = ""
+location            = ""
+cluster_name        = ""
+kubernetes_version  = "1.26.3"
+system_node_count   = 2
+acr_name            = ""
+
+# GKE Variables
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
+project_id = "REPLACE_ME"
+region     = "us-central1"
