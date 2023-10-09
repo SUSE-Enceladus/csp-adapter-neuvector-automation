@@ -22,3 +22,11 @@ variable "acr_name" {
   type        = string
   description = "ACR name"
 }
+variable "extension_name" {
+  type        = string
+  description = "extension name"
+}
+variable "ext_version" {
+  type        = string
+  description = "extension version"
+}

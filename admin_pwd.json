@@ -1,0 +1,5 @@
+{
+                    "controller.secret.data.userinitcfg\\.yaml.users[0].Password": "Password1234",
+                    "controller.secret.data.userinitcfg\\.yaml.users[0].Fullname": "admin",
+                    "controller.secret.data.userinitcfg\\.yaml.users[0].Role": "admin"
+}
